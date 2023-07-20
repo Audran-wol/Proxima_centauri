@@ -3,8 +3,8 @@ import requests
 import smtplib
 app = Flask(__name__)
 
-my_email = "gimanboom@gmail.com"
-my_password = "653116180"
+my_email = "your_email"
+my_password = "your__password"
 url = "https://api.npoint.io/dccb57eb82214ce1b1ca"
 response = requests.get(url)
 post = response.json()
